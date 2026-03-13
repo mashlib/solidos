@@ -2,9 +2,9 @@
 
 Vocabulary and JSON-LD context for SolidOS data browser panes and views.
 
-**Namespace:** `https://mashlib.github.io/solidos#`
+**Namespace:** `http://w3id.org/solidos#`
 
-**Context:** `https://mashlib.github.io/solidos/context.jsonld`
+**Context:** `http://w3id.org/solidos/context.jsonld`
 
 ## Terms
 

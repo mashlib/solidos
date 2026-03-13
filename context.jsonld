@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "solidos": "https://mashlib.github.io/solidos#",
+    "solidos": "http://w3id.org/solidos#",
     "view": {
       "@id": "solidos:view",
       "@type": "@id"

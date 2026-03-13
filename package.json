@@ -1,8 +1,8 @@
 {
   "name": "@mashlib/solidos",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "SolidOS vocabulary and JSON-LD context",
-  "homepage": "https://mashlib.github.io/solidos/",
+  "homepage": "http://w3id.org/solidos",
   "repository": {
     "type": "git",
     "url": "https://github.com/mashlib/solidos.git"

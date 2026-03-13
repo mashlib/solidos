@@ -5,7 +5,7 @@
     "owl": "http://www.w3.org/2002/07/owl#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "terms": "http://www.w3.org/2003/06/sw-vocab-status/ns#",
-    "solidos": "https://mashlib.github.io/solidos#",
+    "solidos": "http://w3id.org/solidos#",
     "description": {
       "@id": "dc:description",
       "@type": "xsd:string"
