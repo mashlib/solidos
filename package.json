@@ -1,0 +1,11 @@
+{
+  "name": "@mashlib/solidos",
+  "version": "0.0.1",
+  "description": "SolidOS vocabulary and JSON-LD context",
+  "homepage": "https://mashlib.github.io/solidos/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mashlib/solidos.git"
+  },
+  "license": "MIT"
+}

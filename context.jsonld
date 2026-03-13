@@ -1,0 +1,10 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "solidos": "https://mashlib.github.io/solidos#",
+    "view": {
+      "@id": "solidos:view",
+      "@type": "@id"
+    }
+  }
+}
