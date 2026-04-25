@@ -50,7 +50,7 @@
       "@id": "solidos:",
       "@type": "owl:Ontology",
       "title": "SolidOS vocabulary",
-      "description": "Vocabulary for SolidOS data browser panes and views."
+      "description": "Vocabulary for SolidOS: data browser panes, type indexes, and related concepts."
     },
     {
       "@id": "solidos:view",
@@ -64,6 +64,26 @@
       },
       "range": {
         "@id": "xsd:anyURI"
+      },
+      "term_status": "unstable"
+    },
+    {
+      "@id": "solidos:PublicDocument",
+      "@type": "rdfs:Class",
+      "comment": "A document registered in a public type index, intended to be discoverable by anyone who can read the index.",
+      "label": "Public document",
+      "isDefinedBy": {
+        "@id": "solidos:"
+      },
+      "term_status": "unstable"
+    },
+    {
+      "@id": "solidos:PrivateDocument",
+      "@type": "rdfs:Class",
+      "comment": "A document registered in a private type index, intended to be discoverable only by the user and parties they authorise.",
+      "label": "Private document",
+      "isDefinedBy": {
+        "@id": "solidos:"
       },
       "term_status": "unstable"
     }

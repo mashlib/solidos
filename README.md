@@ -1,6 +1,6 @@
 # SolidOS Vocabulary
 
-Vocabulary and JSON-LD context for SolidOS data browser panes and views.
+Vocabulary and JSON-LD context for SolidOS: data browser panes, type indexes, and related concepts.
 
 **Namespace:** `http://w3id.org/solidos#`
 
@@ -11,6 +11,8 @@ Vocabulary and JSON-LD context for SolidOS data browser panes and views.
 | Term | Description | Status |
 |------|-------------|--------|
 | `solidos:view` | Links a resource or RDF class to a pane ES module URL | unstable |
+| `solidos:PublicDocument` | Document registered in a public type index | unstable |
+| `solidos:PrivateDocument` | Document registered in a private type index | unstable |
 
 ## Links
 
