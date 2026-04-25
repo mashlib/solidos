@@ -30,7 +30,7 @@ function Category(props) {
 
   return html`
     <div>
-      <h1 id="${props.id}" onClick=${handleHeadingClick}>${props.label}</h1>
+      <h1 id="${props.id}" onClick=${handleHeadingClick}>${props.id}</h1>
       <p>Comment: ${props.comment}</p>
       <p>Term status: ${props.termStatus}</p>
     </div>
@@ -77,7 +77,6 @@ function App() {
             <div class="property-block">
               <${Category}
                 id="${item['@id'].split(/[:#\/]/).pop()}"
-                label="${item.label}"
                 comment=${item.comment}
                 termStatus=${item.term_status}
               />
@@ -93,7 +92,6 @@ function App() {
           <div class="property-block">
             <${Category}
               id="${item['@id'].split(/[:#\/]/).pop()}"
-              label="${item.label}"
               comment=${item.comment}
               termStatus=${item.term_status}
             />
