@@ -77,7 +77,6 @@ function App() {
             <div class="property-block">
               <${Category}
                 id="${item['@id'].split(/[:#\/]/).pop()}"
-                label="${item.label}"
                 comment=${item.comment}
                 termStatus=${item.term_status}
               />
@@ -93,7 +92,6 @@ function App() {
           <div class="property-block">
             <${Category}
               id="${item['@id'].split(/[:#\/]/).pop()}"
-              label="${item.label}"
               comment=${item.comment}
               termStatus=${item.term_status}
             />
