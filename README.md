@@ -13,6 +13,7 @@ Vocabulary and JSON-LD context for SolidOS: data browser panes, type indexes, an
 | `solidos:view` | Links a resource or RDF class to a pane ES module URL | unstable |
 | `solidos:PublicDocument` | Document registered in a public type index | unstable |
 | `solidos:PrivateDocument` | Document registered in a private type index | unstable |
+| `solidos:Wallet` | Part of a pod that holds credentials and related items | unstable |
 
 ## Links
 
